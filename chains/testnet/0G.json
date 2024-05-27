@@ -1,0 +1,10 @@
+{
+    "chain_name": "zgtendermint_16600-1",
+    "api": ["https://rest.nodejumper.io/0gtestnet"],
+    "rpc": ["https://0g.chound.xyz"],
+    "coingecko": "",
+    "snapshot_provider": "",
+    "sdk_version": "0.34.27",
+    "min_tx_fee": "500",
+    "addr_prefix": "0g"
+}
