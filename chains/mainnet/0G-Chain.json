@@ -1,10 +1,28 @@
 {
-    "chain_name": "zgtendermint_16600-1",
-    "api": ["https://rest.nodejumper.io/0gtestnet"],
-    "rpc": ["https://0g.chound.xyz"],
-    "coingecko": "",
-    "snapshot_provider": "",
+    "chain_name": "0G Chain",
+    "api": [
+        {
+            "address": "https://rest.nodejumper.io/0gtestnet", 
+            "provider": "NodeJumper"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://0g.chound.xyz", 
+            "provider": "Chou"
+        }
+    ],
     "sdk_version": "0.34.27",
-    "min_tx_fee": "500",
-    "addr_prefix": "0g"
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uA0GI",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "coingecko_id": "cosmos", 
+        "logo": "https://dashboard.oneiricts.com/logos/0G-Logo.svg"
+    }],
+    "addr_prefix": "0g",
+    "theme_color": "#ce4747",
+    "logo": "https://dashboard.oneiricts.com/logos/0G-Logo.svg"
 }
