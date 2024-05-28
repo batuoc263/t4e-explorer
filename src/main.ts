@@ -9,6 +9,9 @@ import LazyLoad from 'lazy-load-vue3';
 import router from './router';
 import { useBaseStore } from './stores/useBaseStore';
 
+
+
+
 // Create vue app
 const app = createApp(App);
 // Use plugins
