@@ -6,16 +6,6 @@
     },
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "missing",
-          "value": "file"
-        },
-        {
-          "type": "missing",
-          "value": "directory"
-        }
-      ],
       "destination": "/index.html"
     }
   ]
