@@ -4,10 +4,6 @@
         {
             "address": "https://0g.chound.xyz/rest", 
             "provider": "Chou"
-        },
-        {
-            "address": "https://rest.nodejumper.io/0gtestnet", 
-            "provider": "NodeJumper"
         }
     ], 
     "rpc": [
