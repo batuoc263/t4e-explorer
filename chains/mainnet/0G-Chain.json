@@ -8,10 +8,6 @@
         {
             "address": "https://rest.nodejumper.io/0gtestnet", 
             "provider": "NodeJumper"
-        },
-        {
-            "address": "https://api-zero-gravity-testnet.trusted-point.com:443", 
-            "provider": "TrustedPoint"
         }
     ], 
     "rpc": [
@@ -22,10 +18,6 @@
         {
             "address": "https://rpc.nodejumper.io:443/0gtestnet", 
             "provider": "NodeJumper"
-        },
-        {
-            "address": "https://rpc-zero-gravity-testnet.trusted-point.com:443", 
-            "provider": "TrustedPoint"
         }
     ],
     "sdk_version": "0.34.27",
@@ -36,9 +28,9 @@
         "symbol": "A0GI",
         "exponent": "6",
         "coingecko_id": "", 
-        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/ae8b28c2a226db74f143b16e981fd696bea86074/src/assets/images/chain-logo/0G.svg"
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/0G.svg"
     }],
     "addr_prefix": "0g",
     "theme_color": "#3FA263",
-    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/ae8b28c2a226db74f143b16e981fd696bea86074/src/assets/images/chain-logo/0G.svg"
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/0G.svg"
 }
