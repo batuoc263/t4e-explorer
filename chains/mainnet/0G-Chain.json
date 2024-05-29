@@ -1,15 +1,31 @@
 {
-    "chain_name": "0G Chain",
+    "chain_name": "0G",
     "api": [
+        {
+            "address": "https://0g.chound.xyz/rest", 
+            "provider": "Chou"
+        },
         {
             "address": "https://rest.nodejumper.io/0gtestnet", 
             "provider": "NodeJumper"
+        },
+        {
+            "address": "https://api-zero-gravity-testnet.trusted-point.com:443", 
+            "provider": "TrustedPoint"
         }
     ], 
     "rpc": [
         {
-            "address": "https://0g.chound.xyz", 
+            "address": "https://0g.chound.xyz/rpc", 
             "provider": "Chou"
+        },
+        {
+            "address": "https://rpc.nodejumper.io:443/0gtestnet", 
+            "provider": "NodeJumper"
+        },
+        {
+            "address": "https://rpc-zero-gravity-testnet.trusted-point.com:443", 
+            "provider": "TrustedPoint"
         }
     ],
     "sdk_version": "0.34.27",
@@ -19,10 +35,10 @@
         "base": "uA0GI",
         "symbol": "A0GI",
         "exponent": "6",
-        "coingecko_id": "cosmos", 
-        "logo": "https://dashboard.oneiricts.com/logos/0G-Logo.svg"
+        "coingecko_id": "", 
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/ae8b28c2a226db74f143b16e981fd696bea86074/src/assets/images/chain-logo/0G.svg"
     }],
     "addr_prefix": "0g",
-    "theme_color": "#ce4747",
-    "logo": "https://dashboard.oneiricts.com/logos/0G-Logo.svg"
+    "theme_color": "#3FA263",
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/ae8b28c2a226db74f143b16e981fd696bea86074/src/assets/images/chain-logo/0G.svg"
 }

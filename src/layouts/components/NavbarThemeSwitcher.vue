@@ -14,7 +14,7 @@ const theme = computed(() => {
 });
 
 const changeMode = (val?: 'dark' | 'light') => {
-    let value: 'dark' | 'light' = 'dark';
+    let value: 'dark' | 'light' = 'light';
     const currentValue: 'dark' | 'light' = val || theme.value;
     if (currentValue === 'dark') {
         value = 'light';
