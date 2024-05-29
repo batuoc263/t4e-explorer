@@ -14,11 +14,16 @@ const theme = computed(() => {
 });
 
 const changeMode = (val?: 'dark' | 'light') => {
-    let value: 'dark' | 'light' = 'light';
-    const currentValue: 'dark' | 'light' = val || theme.value;
+    let value: 'dark' | 'light' = 'dark';
+    
+    const currentValue: 'light' | 'dark' = val || theme.value;
+    
     if (currentValue === 'dark') {
         value = 'light';
+    } else if (currentValue === 'light') {
+        value = 'dark';
     }
+
     if (value === 'light') {
         document.documentElement.classList.add('light');
         document.documentElement.classList.remove('dark');
@@ -26,13 +31,18 @@ const changeMode = (val?: 'dark' | 'light') => {
         document.documentElement.classList.add('dark');
         document.documentElement.classList.remove('light');
     }
+    
     document.documentElement.setAttribute('data-theme', value);
     window.localStorage.setItem('theme', value);
     baseStore.theme = value;
 };
 
 onMounted(() => {
-    changeMode(theme.value === 'light' ? 'dark' : 'light');
+    if (!window.localStorage.getItem("theme")) {
+        changeMode("dark");
+        return;
+    }
+    changeMode(theme.value === 'dark' ? 'light' : 'dark');
 });
 </script>
 
