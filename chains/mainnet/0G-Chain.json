@@ -24,9 +24,9 @@
         "symbol": "A0GI",
         "exponent": "6",
         "coingecko_id": "", 
-        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/0G.svg"
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/0G.svg"
     }],
     "addr_prefix": "0g",
     "theme_color": "#3FA263",
-    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/0G.svg"
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/0G.svg"
 }
