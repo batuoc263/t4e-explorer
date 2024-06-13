@@ -1,0 +1,31 @@
+{
+    "chain_name": "Nillion",
+    "api": [
+        {
+            "address": "https://testnet-nillion-api.lavenderfive.com", 
+            "provider": "Nillion"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://testnet-nillion-rpc.lavenderfive.com", 
+            "provider": "Nillion"
+        },
+        {
+            "address": "https://nillion-testnet-api.polkachu.com", 
+            "provider": "Polkachu"
+        }
+    ],
+    "sdk_version": "0.34.27",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uNIL",
+        "symbol": "NIL",
+        "exponent": "6",
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/Nillion.svg"
+    }],
+    "addr_prefix": "nillion",
+    "theme_color": "#6699ff",
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/7c6db0673616208030523ea836442f398d98f009/src/assets/images/chain-logo/Nillion.svg"
+}
