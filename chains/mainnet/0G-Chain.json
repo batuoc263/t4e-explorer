@@ -2,13 +2,13 @@
     "chain_name": "0G",
     "api": [
         {
-            "address": "http://195.179.227.133:1317", 
+            "address": "https://0g.chound.xyz/rest", 
             "provider": "Chou"
         }
     ], 
     "rpc": [
         {
-            "address": "http://195.179.227.133:26657", 
+            "address": "https://0g.chound.xyz/rpc", 
             "provider": "Chou"
         }
     ],
