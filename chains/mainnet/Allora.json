@@ -1,11 +1,28 @@
 {
-	"chainId": "edgenet",
-	"chainName": "allora-edgenet",
-	"rpc": "https://allora-rpc.edgenet.allora.network",
-	"rest": "https://allora-api.edgenet.allora.network",
-	"bip44": {
-		"coinType": 118
-	},
+    "chain_name": "Allora Edgenet",
+    "api": [
+        {
+            "address": "https://allora-api.edgenet.allora.network", 
+            "provider": "Allora Edgenet"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://allora-rpc.edgenet.allora.network", 
+            "provider": "Allora Edgenet"
+        }
+    ],
+    "sdk_version": "0.34.27",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uAllo",
+        "symbol": "ALLO",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/allora.jpeg"
+    }],
+    "addr_prefix": "allo",
 	"coinType": 118,
 	"bech32Config": {
 		"bech32PrefixAccAddr": "allo",
@@ -15,37 +32,6 @@
 		"bech32PrefixConsAddr": "allovalcons",
 		"bech32PrefixConsPub": "allovalconspub"
 	},
-	"currencies": [
-		{
-			"coinDenom": "ALLO",
-			"coinMinimalDenom": "uallo",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "ALLO",
-			"coinMinimalDenom": "uallo",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown",
-			"gasPriceStep": {
-				"low": 0.01,
-				"average": 0.025,
-				"high": 0.03
-			}
-		}
-	],
-	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
-	},
-	"stakeCurrency": {
-		"coinDenom": "ALLO",
-		"coinMinimalDenom": "uallo",
-		"coinDecimals": 18,
-		"coinGeckoId": "unknown"
-	},
-	"features": []
+    "theme_color": "#3FA263",
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/allora.jpeg"
 }
