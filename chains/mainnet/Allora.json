@@ -2,14 +2,14 @@
     "chain_name": "Allora Edgenet",
     "api": [
         {
-            "address": "https://allora-api.edgenet.allora.network", 
-            "provider": "Allora Edgenet"
+            "address": "https://allora-testnet-api.itrocket.net", 
+            "provider": "Allora Testnet"
         }
     ], 
     "rpc": [
         {
-            "address": "https://allora-rpc.edgenet.allora.network", 
-            "provider": "Allora Edgenet"
+            "address": "https://allora-rpc.testnet.allora.network", 
+            "provider": "Allora Testnet"
         }
     ],
     "sdk_version": "0.34.27",
