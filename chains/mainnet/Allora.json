@@ -1,5 +1,5 @@
 {
-    "chain_name": "Allora Edgenet",
+    "chain_name": "Allora Testnet",
     "api": [
         {
             "address": "https://allora-testnet-api.itrocket.net", 
